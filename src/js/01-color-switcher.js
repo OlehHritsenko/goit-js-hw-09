@@ -20,4 +20,5 @@ startBtn.addEventListener('click', changeColor);
 
 stopBtn.addEventListener('click', () => {
     clearInterval(timerId);
+    startBtn.disabled = false;
 });
